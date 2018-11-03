@@ -1,7 +1,7 @@
 h1
 {
    font-family: 'Exo 2', sans-serif;
-   font-size: calc(6rem + 6vmax);
+   font-size: calc(3rem + 8vmax);
    margin: 0;
    line-height: 1.1;
 }
@@ -11,13 +11,14 @@ h4
   font-family: 'Exo 2', sans-serif;
   font-size: calc(1.2rem + 1.5vmax);
   color: #666;
+  margin: 1rem;
 }
 
 p
 {
   color: white;
   font-family: 'Roboto Mono', monospace;
-  font-size: 1.8rem;
+  font-size: calc(0.8rem + 0.5vw);
 }
 
 #cover
@@ -44,14 +45,15 @@ p
 {
   position: relative;
   top: 0.5rem;
-  font-size: 2rem;
+  font-size: calc(1rem + 1vw);
   color: white;
   font-family: 'Exo 2', sans-serif;
 }
 
 #amfoss_logo img
 {
-    width: 8rem;
+   width: 30vw; 
+   max-width: 8rem;
 }
 
 #subfooter
@@ -63,7 +65,7 @@ p
 .sub-title
 {
     text-align: center;
-    font-size: calc(1.3rem + 1vmax);
+    font-size: calc(0.7rem + 1.8vw);
     color: white;
     font-family: 'Exo 2', sans-serif;
 }
@@ -71,7 +73,7 @@ p
 .social_icons a
 {
   color: #777;
-  padding: 0.8rem;
+  padding: 0.5rem;
   border: 2px solid;
   border-radius: 100vh;
   font-size: calc(1rem + 1vmax);
@@ -90,7 +92,7 @@ p
     font-family: 'Roboto Mono', monospace;
     color: #666;
     text-align: center;
-    font-size: 80%;
+    font-size: calc(0.6rem + 0.2vw);
 }
 
 @-webkit-keyframes Gradient {
