@@ -6,13 +6,13 @@ $(document).ready(function($) {
 
     var $body = $("body");
 
-    if( $body.hasClass("has-loading-screen") ){
-        $body.append('<div class="">Loading</div>');
-        //$.getScript( "assets/js/pace.min.js", function( data, textStatus, jqxhr ) {
+    if( $('body').hasClass("has-loading-screen") ){
+            $('#preloader').removeClass('.d-none');
             Pace.on("done", function() {
-                $body.addClass("loading-done");
+              $('#preloader').addClass('.d-none');
+                $("body").addClass("loading-done");
                 setTimeout(function() {
-                    $body.addClass("hide-loading-screen");
+                    $("body").addClass("hide-loading-screen");
                 }, 500);
                 $.each( $(".animate"), function (i) {
                     var $this = $(this);
@@ -21,7 +21,6 @@ $(document).ready(function($) {
                     }, i * 100);
                 });
             });
-        //});
     }
 
 //  "img" into "background-image" transfer
