@@ -145,7 +145,8 @@ body.show-panel #page #content * {
     opacity: .5;
     font-size: 12px;
     text-transform: uppercase;
-    margin-left: 10px
+    margin-left: -3rem;
+    margin-top: 1rem;
 }
 .count-down.small {
     margin-bottom: 20px
@@ -1049,7 +1050,6 @@ input[type="text"]:active, input[type="text"]:focus, input[type="text"]:hover, i
 // max to 767px
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media (max-width: 767px) {
-    body {}
     body.show-panel {}
     body.show-panel .side-panel {
         transform: translateX(0)
@@ -1084,7 +1084,7 @@ input[type="text"]:active, input[type="text"]:focus, input[type="text"]:hover, i
     }
     .count-down .countdown-row .countdown-period {
         font-size: 8px;
-        margin-left: 0
+        margin-left: -2rem;
     }
     h1 {
         font-size: 38px
