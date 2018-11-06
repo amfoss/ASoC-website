@@ -67,6 +67,19 @@ a:hover { text-decoration: none!important; }
   left: 50%;
 }
 
+
+@keyframes fade-border {
+  0% {
+    border-bottom-color: rgba(255,211,0,0.25);
+  }
+  50% {
+    border-bottom-color: rgba(255,211,0,1);
+  }
+  100% {
+    border-bottom-color: rgba(255,211,0,0.25);
+  }
+}
+
 .triangle {
   border: 100pt solid transparent;
   border-bottom-color: rgba(0,0,0,0.25);
