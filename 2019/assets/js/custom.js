@@ -7,9 +7,9 @@ $(document).ready(function($) {
     var $body = $("body");
 
     if( $('body').hasClass("has-loading-screen") ){
-            $('#preloader').removeClass('.d-none');
+            $('#preloader').show();
             Pace.on("done", function() {
-              $('#preloader').addClass('.d-none');
+              $('#preloader').hide();
                 $("body").addClass("loading-done");
                 setTimeout(function() {
                     $("body").addClass("hide-loading-screen");
