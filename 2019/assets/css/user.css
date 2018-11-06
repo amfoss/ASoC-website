@@ -59,14 +59,17 @@ img
 a { text-decoration: none!important; }
 a:hover { text-decoration: none!important; }
 
+
 #preloader
 {
   position: absolute;
   z-index: 9000;
   top: 50%;
   left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 @keyframes fade-border {
   0% {
@@ -83,7 +86,7 @@ a:hover { text-decoration: none!important; }
 .triangle {
   border: 100pt solid transparent;
   border-bottom-color: rgba(0,0,0,0.25);
-  border-width: 0 50pt 68.819pt 50pt;
+  border-width: 0 50px 68.819px 50px;
   width: 0;
   height: 0;
   position: absolute;
@@ -115,4 +118,3 @@ a:hover { text-decoration: none!important; }
   transform: rotate(288deg);
   animation-delay: 800ms;
 }
-

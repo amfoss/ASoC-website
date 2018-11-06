@@ -386,7 +386,7 @@ body.show-panel #page #content * {
 #page {
     height: 100%;
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
     position: relative;
     transform: rotateY(0deg) translateZ(0px);
     transition: .6s cubic-bezier(.81,.01,.22,1)
