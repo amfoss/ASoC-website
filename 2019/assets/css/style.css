@@ -386,7 +386,7 @@ body.show-panel #page #content * {
 #page {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow: scroll;
     position: relative;
     transform: rotateY(0deg) translateZ(0px);
     transition: .6s cubic-bezier(.81,.01,.22,1)
@@ -542,14 +542,15 @@ body.show-panel #page #content * {
 }
 .side-panel .nav-btn {
     position: absolute;
-    top: 55px;
-    left: -90px;
+    top: 1.5rem;
+    left: -5rem;
     z-index: 5;
     padding: 14px 10px;
     transition: .3s ease;
     background-color: rgba(0,0,0, .4);
-    border-radius: 3px
+    border-radius: 3px;
 }
+
 .side-panel .nav-btn:hover {
     cursor: pointer
 }
