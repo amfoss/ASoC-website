@@ -58,3 +58,48 @@ img
 
 a { text-decoration: none!important; }
 a:hover { text-decoration: none!important; }
+
+#preloader
+{
+  position: absolute;
+  z-index: 9000;
+  top: 50%;
+  left: 50%;
+}
+
+.triangle {
+  border: 100pt solid transparent;
+  border-bottom-color: rgba(0,0,0,0.25);
+  border-width: 0 50pt 68.819pt 50pt;
+  width: 0;
+  height: 0;
+  position: absolute;
+  transform-origin: 49.5pt 0;
+  animation: fade-border 1s linear infinite;
+}
+
+.triangle.no-1 {
+  transform: rotate(0.001deg); /* antialises border */
+  animation-delay: 0ms;
+}
+
+.triangle.no-2 {
+  transform: rotate(72deg);
+  animation-delay: 200ms;
+}
+
+.triangle.no-3 {
+  transform: rotate(144deg);
+  animation-delay: 400ms;
+}
+
+.triangle.no-4 {
+  transform: rotate(216deg);
+  animation-delay: 600ms;
+}
+
+.triangle.no-5 {
+  transform: rotate(288deg);
+  animation-delay: 800ms;
+}
+
