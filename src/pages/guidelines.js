@@ -135,7 +135,7 @@ const NotFoundPage = props => {
 
                                 <li>Allow all Potential candidates to submit Proposals for the project until the official deadline. </li>
 
-                                <li>Review Prposals and give feedback. </li>
+                                <li>Review Proposals and give feedback. </li>
 
                                 <li>Inform program administrator about your decision. </li></ul></li>
 
